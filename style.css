@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e7dc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-color: #e6d3c2;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+main {
+    padding: 20px;
+}
+.projets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.projet {
+    width: 200px;
+    text-align: center;
+}
+.projet img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+footer {
+    background-color: #e6d3c2;
+    text-align: center;
+    padding: 10px;
+}
